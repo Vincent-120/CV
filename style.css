@@ -1,0 +1,119 @@
+.global{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+div.body{
+    padding-top: 250px;
+    width: 50%;
+}
+.head{
+    z-index: -2;
+    color: white;
+    background-image: linear-gradient(to right bottom, #1bbaff, #00acff, #009cff, #008cff, #0079ff, #006cff, #005fff, #174fff, #1545ff, #1839ff, #202bff, #2915ff);
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+}
+
+#triangle{
+    position: relative;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-top: 100% solid transparent;
+    border-bottom:400px solid transparent;
+    border-left: 1239px solid #1d00ff;
+}
+
+p.name{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+div.icone, div.photo, div.phone, p.number, div.email{
+    width: 100%;
+    text-align: center;
+    padding-top;
+}
+
+img.position{
+    padding-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+img.PhoneIcone{
+    padding-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+img.mail{
+    padding-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+h1{
+    width: 100px;
+    height: 100px;
+}
+
+div.description{
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image:linear-gradient(to right bottom, #1bbaff, #00acff, #009cff, #008cff, #0079ff, #006cff, #005fff, #174fff, #1545ff, #1839ff, #202bff, #2915ff);
+    box-shadow:1px 1px 15px black;
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-iteration-count: initial;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+div.formation{
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin-top: 60px;
+    padding: 20px;
+    background-image:linear-gradient(to right bottom, #1bbaff, #00acff, #009cff, #008cff, #0079ff, #006cff, #005fff, #174fff, #1545ff, #1839ff, #202bff, #2915ff);
+    box-shadow:1px 1px 15px black;
+    animation-duration: 4s;
+    animation-name: slide;
+    animation-iteration-count: initial;
+}
+
+div.experience{
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image:linear-gradient(to right bottom, #1bbaff, #00acff, #009cff, #008cff, #0079ff, #006cff, #005fff, #174fff, #1545ff, #1839ff, #202bff, #2915ff);
+    box-shadow:1px 1px 15px black;
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-iteration-count: initial;
+}
+
+@keyframes slide {
+    from {
+    margin-left: 100%;
+    width: 100%;
+}
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
